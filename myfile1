@@ -1,0 +1,26 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	var conferenceName = "My Conference"
+	//conferenceName := "My Conference" does the same thing as the above and can be applied only on var not const or explicit initialisation
+	const conferenceTickets = 50
+	var remainingTickets = 50
+
+	fmt.Println("Welcome to", conferenceName, "booking application!")
+	fmt.Println("We've total", conferenceTickets, "tickets and", remainingTickets, "are left. So hurry up!!")
+	fmt.Println("Get your tickets now.")
+
+	var userName string
+	var userTickets int
+	//ask the user for their name
+	fmt.Scan
+
+	userName = "Polo"
+	userTickets = 2
+	fmt.Printf("User %v boked %v tickets\n", userName, userTickets)
+
+}
+
